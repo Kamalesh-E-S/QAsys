@@ -56,7 +56,7 @@ def download_gemini_embedding(document):
 # Streamlit UI
 def main():
     st.set_page_config(page_title="QA with Documents")
-    st.header("📄 QA with Documents (Information Retrieval)")
+    st.header("📄 QA with Documents")
 
     st.markdown("Upload a document (PDF or text), then ask a question about its content!")
 
@@ -69,7 +69,7 @@ def main():
     if uploaded_file and st.button("Process Document"):
         with st.spinner("Processing and embedding the document..."):
             documents = load_data_from_upload(uploaded_file)
-            load_model()  # Optional: Trigger model loading
+            load_model()  
             st.session_state.query_engine = download_gemini_embedding(documents)
             st.success("✅ Document embedded successfully. You can now ask questions.")
 
