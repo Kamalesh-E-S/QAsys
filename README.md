@@ -1,7 +1,6 @@
 # Document Q&A with Google Gemini
 
 A Streamlit-based Retrieval-Augmented Generation (RAG) application that uses Google's Gemini AI models and LlamaIndex to answer questions about uploaded documents.
-This project implements a document question-answering system powered by Google's Generative AI technology. It allows users to upload documents and get AI-generated answers based on the document content.
 
 ### Key GenAI Components
 
