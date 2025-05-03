@@ -1,4 +1,4 @@
-# Document Q&A with Google Gemini
+#AI-Powered Document Companion using Gemini & RAG
 
 A Streamlit-based Retrieval-Augmented Generation (RAG) application that uses Google's Gemini AI models and LlamaIndex to answer questions about uploaded documents.
 
